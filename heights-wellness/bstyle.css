@@ -1,0 +1,136 @@
+.jumbotron{
+    background: rgba(126, 126, 126, 0.25);
+    margin-top: 0;
+    background-image: url("images/yoga-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.jumbotron a, .container a{
+    color: #ffffff !important;
+    font-size: 2em;
+    text-decoration: none !important;
+}
+
+a:hover{
+    color: #E5E7E9 !important;
+}
+
+ul {
+list-style-type: disc;
+}
+
+.btn{
+    background-color: #535353 !important;
+    width: 200px;
+}
+
+.btn:hover{
+    background-color: #ffffff !important;
+    color: #535353 !important;
+}
+
+.dropdown{
+    font-size: 15px;
+}
+
+.dropdown .dropdown-button {
+    font-size: 2.1em;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.dropdown-button:hover{
+    color: #E5E7E9;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    width: 300px;
+}
+
+.dropdown-content a {
+    float: none;
+    color: #ffffff !important;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    background-color: #818197;
+    font-size: 1.5em;
+}
+
+.dropdown-content a:hover {
+    background-color: #b1b1b1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    margin-top: 0;
+}
+
+.card__readmore--robert, .card__readmore--annie, .card__readmore--nina {
+    position:fixed;
+    margin-left: 50%;
+    margin-top: -100px;
+    transform: translate(-50%, -90%);
+	background-color: #5e5e70;
+    padding: 50px;
+    z-index: 1;
+    width:70vw;
+    height: 80vh;
+    border-radius: 0.5%;
+	text-align: left;
+	font-size: 1.2em;
+	color:#ffffff;
+    display: none;
+}
+
+footer {
+    background-color: #535353;
+    color: #ffffff;
+}
+
+.wl-widget {
+    background-color: rgb(238, 238, 238);
+}
+
+.collapse {
+    display: none;
+}
+
+.collapsing {
+    height: 0;
+    overflow: hidden;
+    transition: .35s ease-in;
+}
+
+.bio-hidden__robert, .bio-hidden__annie, .bio-hidden__nina{
+    display: none;
+}
+
+.list-group-item{
+    background-color: transparent !important;
+    border: none !important;
+}
+
+#class-card{
+    height: 300px;
+}
+
+@media only screen and (max-width: 600px) {
+    #para_head{
+     font-size: 12px;
+    }
+    #para_detail{
+     font-size: 10px;
+    }
+}
